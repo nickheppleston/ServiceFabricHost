@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Host.Common", "ServiceFabric.Host.Common\ServiceFabric.Host.Common.csproj", "{0A036AE9-3F88-4B55-88A4-DFEB6E48E78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Host.Common.Tests", "ServiceFabric.Host.Common.Tests\ServiceFabric.Host.Common.Tests.csproj", "{AB44EF19-06C7-403F-B5B4-154F75AE6BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Host", "ServiceFabric.Host\ServiceFabric.Host.csproj", "{74D79E3C-A2CB-4F8E-9552-C3E93DC5B5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Host.Tests", "ServiceFabric.Host.Tests\ServiceFabric.Host.Tests.csproj", "{0CAB02CE-2B0B-4A3D-9233-8E9CE468A609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Host.Tests.SampleWorkerRole", "ServiceFabric.Host.Tests.SampleWorkerRole\ServiceFabric.Host.Tests.SampleWorkerRole.csproj", "{2C3DE3C7-D813-44FF-B293-6528EE550B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFabric.Service", "ServiceFabric.Service\ServiceFabric.Service.csproj", "{4DE2CF09-EFE3-43C8-9196-034CF94C5593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A036AE9-3F88-4B55-88A4-DFEB6E48E78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A036AE9-3F88-4B55-88A4-DFEB6E48E78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A036AE9-3F88-4B55-88A4-DFEB6E48E78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A036AE9-3F88-4B55-88A4-DFEB6E48E78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB44EF19-06C7-403F-B5B4-154F75AE6BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB44EF19-06C7-403F-B5B4-154F75AE6BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB44EF19-06C7-403F-B5B4-154F75AE6BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB44EF19-06C7-403F-B5B4-154F75AE6BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D79E3C-A2CB-4F8E-9552-C3E93DC5B5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D79E3C-A2CB-4F8E-9552-C3E93DC5B5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D79E3C-A2CB-4F8E-9552-C3E93DC5B5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D79E3C-A2CB-4F8E-9552-C3E93DC5B5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAB02CE-2B0B-4A3D-9233-8E9CE468A609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAB02CE-2B0B-4A3D-9233-8E9CE468A609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAB02CE-2B0B-4A3D-9233-8E9CE468A609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAB02CE-2B0B-4A3D-9233-8E9CE468A609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3DE3C7-D813-44FF-B293-6528EE550B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3DE3C7-D813-44FF-B293-6528EE550B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3DE3C7-D813-44FF-B293-6528EE550B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3DE3C7-D813-44FF-B293-6528EE550B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE2CF09-EFE3-43C8-9196-034CF94C5593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE2CF09-EFE3-43C8-9196-034CF94C5593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE2CF09-EFE3-43C8-9196-034CF94C5593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE2CF09-EFE3-43C8-9196-034CF94C5593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
